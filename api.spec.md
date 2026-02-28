@@ -876,37 +876,3 @@ All error responses follow:
 | `created_at`   | DateTime  | Auto-set                           |
 | `updated_at`   | DateTime  | Auto-updated                       |
 
----
-
-## Setup & Running
-
-```bash
-# Install dependencies
-npm install
-
-# Configure environment
-cp .env.example .env
-# Edit .env with your PostgreSQL connection string
-
-# Run database migrations
-npx prisma migrate dev --name init
-
-# Generate Prisma client
-npx prisma generate
-
-# Start development server
-npm run start:dev
-
-# Build for production
-npm run build
-npm run start:prod
-```
-
-**Environment Variables**:
-
-| Variable                 | Description                  | Default                                                              |
-| ------------------------ | ---------------------------- | -------------------------------------------------------------------- |
-| `DATABASE_URL`           | PostgreSQL connection string | `postgresql://postgres:postgres@localhost:5432/taskio?schema=public` |
-| `JWT_SECRET`             | Secret key for JWT signing   | `default-secret`                                                     |
-| `JWT_EXPIRATION_SECONDS` | Token expiration in seconds  | `86400` (24 hours)                                                   |
-| `PORT`                   | Server port                  | `3000`                                                               |
