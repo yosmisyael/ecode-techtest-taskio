@@ -8,11 +8,13 @@
 ### Key Features
 
 - **Secure JWT Authentication**: Industry-standard JSON Web Token implementation for secure, stateless user authentication and authorization.
-- **Advanced Task Management**: Full-featured CRUD operations for tasks with support for titles, descriptions, pin favourite, and status tracking.
+- **Advanced Task Management**: Full-featured CRUD operations for tasks with support for titles, descriptions, pin favourite, and status tracking.  
 - **Smart Categorization**: Organize tasks effortlessly into categories, enabling users to maintain a clear overview of different project areas.
+- **User Personalization**: User can edit their info, reset their password, even add a profile picture easily with this API!
 - **Intelligent Image Uploads**: Integrated image handling for tasks, featuring an automated replacement mechanism that cleans up orphaned files to maintain storage efficiency.
 - **Enterprise-Grade Architecture**: Leverages NestJS's modular architecture, providing a highly maintainable and testable codebase.
-- **Performance First**: support pagination, filtering, flexible search by category or task title, even filter by task deadline!
+- **Performance First**: Support pagination, filtering, flexible search by category or task title, even filter by task deadline!
+- **Reliable**: All request is validated and all endpoints has been tested with end to end test, achieving 90%+ coverage ensuring API ready to be used on production environment!
 - **Prisma & PostgreSQL**: Utilizes the powerful Prisma ORM for type-safe database interactions with PostgreSQL, ensuring data integrity and performance.
 
 ## Setup & Running
