@@ -1,6 +1,6 @@
 # Taskio API Clone by Yosev
 
-> QuickNotes: API Specs are available at **[here](https://github.com/yosmisyael/ecode-techtest-taskio/blob/main/api.spec.md)**. Too lazy to install and experience this app? Try deployed API version **[here]()!**
+> QuickNotes: API Specs are available at **[here](https://github.com/yosmisyael/ecode-techtest-taskio/blob/main/api.spec.md)**. Too lazy to install and experience this app? Try deployed API version **[here: Base URL API: https://taskio.elyos.me](https://taskio.elyos.me)!**
 
 ## Description
 **Taskio API** is a high-performance, scalable Task Management system designed for modern productivity workflows. Built with a focus on security, efficiency, and developer experience, this API provides a robust foundation for building task-oriented applications.
